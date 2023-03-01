@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="img/logo.png" class="logo" alt="">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><img src="img/search.png" alt=""></button>
+        </div>
+        <div class="user-options">
+            <img src="img/video.png" class="icon" alt="">
+            <img src="img/grid.png" class="icon" alt="">
+            <img src="img/bell.png" class="icon" alt="">
+            <div class="user-dp">
+                <img src="img/profile-pic.jpg" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <!-- sidebar -->
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="img/home.png" alt="">home</a>
+        <a href="#" class="links"><img src="img/explore.png" alt="">explore</a>
+        <a href="#" class="links"><img src="img/subscription.png" alt="">subscription</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="img/library.png" alt="">library</a>
+        <a href="#" class="links"><img src="img/history.png" alt="">history</a>
+        <a href="#" class="links"><img src="img/your-video.png" alt="">your video</a>
+        <a href="#" class="links"><img src="img/watch-later.png" alt="">watch leater</a>
+        <a href="#" class="links"><img src="img/liked.png" alt="">like video</a>
+        <a href="#" class="links"><img src="img/show.png" alt="">show more</a>
+    </div>
+
+    <!-- filters -->
+    <div class="filters">
+        <button class="filter-options active">All</button>
+        <a href='https://www.youtube.com/results?search_query=html'>
+            <button class="filter-options">
+               HTML
+            </button>
+        </a>
+        <a href='https://www.youtube.com/results?search_query=CSS'>
+            <button class="filter-options">
+               CSS
+            </button>
+        </a>
+        <a href='https://www.youtube.com/results?search_query=javascript+full+course'>
+            <button class="filter-options">
+              JavaScript
+            </button>
+        </a>
+        <a href='https://www.youtube.com/results?search_query=react+js+full+course'>
+            <button class="filter-options">
+              React-Js
+            </button>
+        </a>
+        <a href='https://www.youtube.com/results?search_query=web+development'>
+            <button class="filter-options">
+              Web Development
+            </button>
+        </a>
+        <a href='https://www.youtube.com/results?search_query=songs'>
+            <button class="filter-options">
+              Songs
+            </button>
+        </a>
+        <a href='https://www.youtube.com/results?search_query=sport'>
+            <button class="filter-options">
+              Sports
+            </button>
+        </a>
+        <a href='https://www.youtube.com/results?search_query=cricket'>
+            <button class="filter-options">
+             Cricket
+            </button>
+        </a>
+        <a href='https://www.youtube.com/results?search_query=Entertainment'>
+            <button class="filter-options">
+              Entertainment
+            </button>
+        </a>
+        <a href='https://www.youtube.com/results?search_query=R'>
+            <button class="filter-options">
+              R
+            </button>
+        </a>
+    </div>
+
+    <!-- videos -->
+    <div class="video-container">
+        
+    </div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
